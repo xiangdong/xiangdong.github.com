@@ -150,33 +150,26 @@ ul.posts {
 
 #post {
 
+  }
+.code {
+    background: none repeat scroll 0 0 #F0F0F0;
+    border: 1px solid #E0E0E0;
+    border-radius: 0.2em 0.2em 0.2em 0.2em;
+    font-size: 0.9em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
 }
-
-  /* standard */
-
-  #post pre {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    padding: 0 .4em;
-  }
-
-  #post ul,
-  #post ol {
-    margin-left: 1.35em;
-  }
-
-  #post code {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    font-size: 85%;
-    padding: 0 .2em;
-  }
-
-    #post pre code {
-      border: none;
-    }
+.highlight { background-color: #333333 }
 
   /* terminal */
+  #home pre.terminal {
+    border: 1px solid black;
+    background-color: #333;
+    color: white;
+  }
+  #home pre.terminal code {
+    background-color: #333;
+  }
 
   #post pre.terminal {
     border: 1px solid black;
