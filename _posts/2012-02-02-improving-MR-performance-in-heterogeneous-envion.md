@@ -45,7 +45,8 @@ If a node asks for a new task and 系统中现存的speculative task低于 Specu
 
 文章特别指出了估计task结束时间的时候，reduce task比较特殊（reduce task的copy phase会占用相当长的时间）。 
 
-
+Evl部分从略。
+ 
 
 
 
