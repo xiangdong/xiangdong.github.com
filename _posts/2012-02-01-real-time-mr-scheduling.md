@@ -12,8 +12,8 @@ categories: [mapreduce, scheduling]
 2. 使得满足soft real time 的job最多
 
 Contribution：
-1. 在EC2上所做的一系列测试以及对相关参数的讨论
-2. CSP formulation
+1. 在EC2上所做的一系列测试以及对相关参数的讨论 
+2. CSP formulation 
 3. 对几种启发式算法的讨论
 
 Related Work提到两大块内容： Hadoop performance相关的分析工作（包括性能分析工具以及调度算法），completion time esitimation的相关工作。 
